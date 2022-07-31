@@ -1,0 +1,65 @@
+/* Elements */
+
+h1 {
+    color: #004D61;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+
+/* Bootstrap classes */
+
+.navbar {
+    padding: 1rem;
+}
+
+/* Classes */
+
+.alpha-gradient {
+    background: rgb(53, 66, 89);
+    background: linear-gradient(
+        0deg, 
+        rgba(34, 193, 195, 1) 25%,
+        rgba(83, 45, 253, 1) 100%);
+}
+
+.beta-gradient {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        45deg,
+        rgba(238, 174, 202, 1)0%,
+        rgba(235, 242, 203, 1)38%,
+        rgba(174, 183, 224, 1) 71%,
+        rgba(148, 187, 233, 1)100%);
+}
+
+.font-one {
+    color: whitesmoke;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+
+.font-one:hover {
+    color: whitesmoke;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+
+.font-active-link {
+    color: whitesmoke;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+
+.font-active-link:hover {
+    color: grey;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+
+.icon-color {
+    color: #004D61;
+}
+
+.icon-color:hover {
+    color: #348498;
+}
