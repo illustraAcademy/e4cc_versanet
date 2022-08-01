@@ -56,6 +56,10 @@ h1 {
     font-weight: bold;
 }
 
+.nav-custom-color {
+    background-color: rgba(0, 77, 97, 1);
+}
+
 .icon-color {
     color: #004D61;
 }
