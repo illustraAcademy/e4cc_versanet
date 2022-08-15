@@ -1,6 +1,19 @@
 /* Elements */
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
+    color: #004D61;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+
+a {
+    color: #004D61;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p {
     color: #004D61;
     font-family: 'Ubuntu';
     font-weight: bold;
@@ -32,6 +45,30 @@ h1 {
         rgba(148, 187, 233, 1)100%);
 }
 
+.custom-image-lg {
+    width: 128px;
+}
+
+.custom-image-sm {
+    width: 64px;
+    padding: 10px;
+}
+
+.row-e4cc{
+    margin: 0;
+    border-width: 0.5rem;
+    border-style: solid;
+    color: rgba(174, 183, 224, 1);
+}
+
+.element-border{
+    margin: 0;
+    border: solid;
+    border-width: 0.3rem;
+    color: rgba(148, 187, 233, 1);
+    padding: 1rem;
+}
+
 .font-one {
     color: whitesmoke;
     font-family: 'Ubuntu';
@@ -57,7 +94,7 @@ h1 {
 }
 
 .nav-custom-color {
-    background-color: rgba(0, 77, 97, 1);
+    background-color: rgba(127, 78, 244, 1);
 }
 
 .icon-color {
